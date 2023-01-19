@@ -23,8 +23,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/yeaungzaw/week3-frontend-speedrun/tree/main/docs/qr-code-component)
-- Live Site URL: [Add live site URL here](yeaungzaw.github.io/week3-frontend-speedrun/qr-code-component/index.html)
+- Solution URL: [Solution](https://github.com/yeaungzaw/week3-frontend-speedrun/tree/main/docs/qr-code-component)
+- Live Site URL: [Live Site](yeaungzaw.github.io/week3-frontend-speedrun/qr-code-component/index.html)
 
 ## My process
 
@@ -45,6 +45,6 @@ This project didn't require flexbox or CSS grid. I look forward to using them in
 
 ## Author
 
-- Github - [@yeaungzaw](https://github.com/yeaungzaw)
-- Frontend Mentor - [@Ye AUng Zaw](https://www.frontendmentor.io/profile/yeaungzaw)
-- Linkedin - [@Ye Aung Zaw](https://www.linkedin.com/in/yeaungzaw/)
+- Github - [yeaungzaw](https://github.com/yeaungzaw)
+- Frontend Mentor - [Ye AUng Zaw](https://www.frontendmentor.io/profile/yeaungzaw)
+- Linkedin - [Ye Aung Zaw](https://www.linkedin.com/in/yeaungzaw/)
