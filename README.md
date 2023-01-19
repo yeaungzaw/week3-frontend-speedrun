@@ -1,5 +1,7 @@
 # Week 3 Frontend Speedrun
 
+[Live Site](https://yeaungzaw.github.io/week3-frontend-speedrun/index.html)
+
 ## Stage 1 - HTML & CSS - less complex layouts
 - [x] - [QR code component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
 - [ ] - [Profile card component](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
