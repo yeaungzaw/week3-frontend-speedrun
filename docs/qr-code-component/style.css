@@ -1,0 +1,80 @@
+/* Mobile: 375px
+Desktop: 1440px
+
+Colors
+
+White: hsl(0, 0%, 100%)
+Light gray: hsl(212, 45%, 89%)
+Grayish blue: hsl(220, 15%, 55%)
+Dark blue: hsl(218, 44%, 22%)
+
+Typography
+
+Body Copy
+Font size (paragraph): 15px
+
+Font
+Family: Outfit
+Weights: 400, 700 */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--light-gray);
+    font-family: Outfit;
+}
+
+p {
+    font-size: 15px;
+}
+
+.container {
+    margin: 50px auto;
+}
+
+.card {
+    background-color: var(--white);
+    margin: 0 auto 20px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    text-align: center;
+    color: var(--grayish-blue);
+}
+
+.card h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--dark-blue);
+}
+
+
+@media (min-width: 376px) {
+    .container {
+        margin: 13vh 0;
+    }
+}
