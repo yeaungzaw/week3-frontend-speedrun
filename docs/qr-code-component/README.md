@@ -9,11 +9,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -46,5 +44,5 @@ This project didn't require flexbox or CSS grid. I look forward to using them in
 ## Author
 
 - Github - [yeaungzaw](https://github.com/yeaungzaw)
-- Frontend Mentor - [Ye AUng Zaw](https://www.frontendmentor.io/profile/yeaungzaw)
+- Frontend Mentor - [Ye Aung Zaw](https://www.frontendmentor.io/profile/yeaungzaw)
 - Linkedin - [Ye Aung Zaw](https://www.linkedin.com/in/yeaungzaw/)
