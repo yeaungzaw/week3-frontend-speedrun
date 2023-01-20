@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 100vh;
+    background: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    /* background-position: bottom 35vh right 52vw, top 52vh left 48vw; */
+    background-position: bottom 40vh right 48vw, top 42vh left 30vw;
+    background-color: var(--dark-cyan);
+}
+
+.profile-card {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.profile-image {
+    width: 32%;
+    border-radius: 50%;
+    border: 4px solid white;
+    position: relative;
+    bottom: 50px;
+}
+
+.profile-name {
+    margin-top: -35px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: var(--desaturated-blue);
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+.profile-name span {
+    color: var(--dark-grayish-blue);
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.profile-location {
+    margin-bottom: 20px;
+    color: var(--dark-grayish-blue);
+    font-size: 14px;
+}
+
+.profile-stats {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 25px 0;
+    border-top: 1px solid #F3F3F3;
+}
+
+.profile-stats .stat {
+    font-weight: bold;
+    color: var(--desaturated-blue);
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.profile-stats div p:nth-child(2) {
+    font-size: 10px;
+    color: var(--dark-grayish-blue);
+    letter-spacing: 2px;
+}
+
+footer .attribution {
+    font-size: 13px;
+    color: var(--desaturated-blue);
+}
+
+@media (min-width: 376px) {
+    body {
+        background-position: bottom 40vh right 50vw, top 50vh left 45vw;
+    }
+}
