@@ -4,7 +4,7 @@
 
 ## Stage 1 - HTML & CSS - less complex layouts
 - [x] - [QR code component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
-- [ ] - [Profile card component](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
+- [x] - [Profile card component](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
 - [ ] - [NFT preview card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
 - [ ] - [Order summary component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
 - [ ] - [Stats preview card component](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
