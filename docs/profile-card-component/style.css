@@ -23,7 +23,6 @@ body {
     height: 100vh;
     background: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
-    /* background-position: bottom 35vh right 52vw, top 52vh left 48vw; */
     background-position: bottom 40vh right 48vw, top 42vh left 30vw;
     background-color: var(--dark-cyan);
 }
