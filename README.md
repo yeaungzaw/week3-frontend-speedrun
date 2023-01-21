@@ -7,7 +7,7 @@
 - [x] - [Profile card component](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
 - [x] - [NFT preview card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
 - [x] - [Order summary component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
-- [ ] - [Stats preview card component](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
+- [x] - [Stats preview card component](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
 - [ ] - [3-column preview card component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
 - [ ] - [Huddle landing page with a single introductory section](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0)
 
