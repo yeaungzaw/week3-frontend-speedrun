@@ -1,0 +1,161 @@
+/* ## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900 */
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* reset */
+
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background: url(images/pattern-background-mobile.svg) no-repeat;
+    background-color: var(--pale-blue);
+    gap: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    color: var(--desaturated-blue);
+    line-height: 1.5;
+    margin: 0 20px;
+}
+
+
+/* reset end */
+
+.order-card {
+    margin: 20px 0;
+    max-width: 310px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-card .order-card-title {
+    color: var(--dark-blue);
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.order-card .music-plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--very-pale-blue);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.order-card .music-plan img {
+    width: 50px;
+}
+
+.order-card .music-plan > div {
+    display: flex;
+}
+
+.order-card .music-plan div .annual-plan {
+    font-weight: 900;
+    color: var(--dark-blue);
+}
+
+button {
+    margin: 0 20px;
+    padding: 15px 20px;
+    background-color: var(--bright-blue);
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Red Hat Display';
+}
+
+button:hover {
+    background-color: rgb(132, 80, 253);
+}
+
+.cancel-order {
+    padding-bottom: 25px;
+    font-weight: 700;
+}
+
+.cancel-order:hover {
+    color: var(--dark-blue);
+}
+
+/* footer */
+
+footer .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+footer .attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 376px) {
+    .order-card {
+        max-width: 375px;
+    }
+
+    body {
+        background: url(images/pattern-background-desktop.svg) no-repeat;
+        background-color: var(--pale-blue);
+    }
+}
