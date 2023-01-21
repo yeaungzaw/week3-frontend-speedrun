@@ -57,7 +57,7 @@ This project didn't require CSS Grid. I look forward to using them in future pro
 - [background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position) - This helped me to understand the background position property simply and quickly.
 - [box-shadow 1](https://youtu.be/-JNRQ5HjNeI)
 - [box-shadow 2](https://youtu.be/Yon4l3MUBGY)
-- [box-shadow 2](https://youtu.be/Yon4l3MUBGY)
+- [box-shadow 3](https://youtu.be/Yon4l3MUBGY)
 -The above three videos explain box-shadow property easily, simply, and completely. Before I found his videos, I absolutely didn't understand them.
 
 ## Author
