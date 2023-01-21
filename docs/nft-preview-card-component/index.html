@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="stylesheet" href="style.css">
+	<title>Frontend Mentor | NFT preview card component</title>
 </head>
+
 <body>
 
-  Equilibrium #3429
+	<main>
+		<section class="nft-card">
+			<div class="nft-img">
+				<img class="nft-img-not-hover-state" src="images/image-equilibrium.jpg" alt="Equilibrium image">
+				<div class="nft-img-hover-state"><img src="images/icon-view.svg" alt="view icon"></div>
+			</div>
 
-  Our Equilibrium collection promotes balance and calm.
+			<p class="nft-title">Equilibrium #3429</p>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+			<p>Our Equilibrium collection promotes balance and calm.</p>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+			<div class="nft-price">
+				<div>
+					<img class="ethereum" src="images/icon-ethereum.svg" alt="">
+					<p class="cyan-price">0.041 ETH</p>
+				</div>
+				<div>
+					<img class="clock" src="images/icon-clock.svg" alt="">
+					<p>3 days left</p>
+				</div>
+			</div>
+
+			<div class="nft-owner">
+				<img class="owner-img" src="images/image-avatar.png" alt="Owner Image">
+				<p>Creation of <span><a class="owner-name" href="#">Jules Wyvern</a></span></p>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="attribution">
+			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+			Coded by <a href="https://github.com/yeaungzaw" target="_blank">Ye Aung Zaw</a>.
+		</div>
+	</footer>
+
 </body>
+
 </html>
